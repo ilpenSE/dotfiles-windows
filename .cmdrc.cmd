@@ -1,10 +1,10 @@
 @echo off
 prompt $P$_$G 
 
-doskey ls=dir $*
-doskey la=dir /a
-doskey lla=dir /a
-doskey ll=dir
+doskey ls=dir /b $*
+doskey la=dir /b /a $*
+doskey lla=dir /a $*
+doskey ll=dir $*
 
 doskey mv=move $*
 doskey cp=copy $*
